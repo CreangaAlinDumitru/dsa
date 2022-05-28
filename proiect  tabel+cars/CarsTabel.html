@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <caption> Cars Information</caption>
+        <thead>
+            <tr class="general">
+                <th scope="col" id="m"> Brand</th>
+                <th scope="col" id="m"> Price</th>
+                <th scope="col" id="m"> Model</th>
+                <th scope="col" id="m"> Color </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3" id="data"> Data is updated every 15 minutes. </td>
+            </tr>
+        </tfoot>
+        <tbody class="bodyTable">
+            <tr id="bmwrow">
+                <th scope="row"> BMW </th>
+                <td> 39.999$ </td>
+                <td> 256 HP, 3.0 Liters</td>
+                <td> White </td>
+            </tr>
+            <tr id="audirow">
+                <th scope="row"> Audi </th>
+                <td> 37.999$ </td>
+                <td> 231 HP, 2.8 Liters</td>
+                <td> Green </td>
+            </tr>
+            <tr id="mercedesrow">
+                <th scope="row"> Mercedes </th>
+                <td> 46.999$ </td>
+                <td> 245 HP, 3.0 Liters</td>
+                <td> Black </td>
+            </tr>
+            <tr id="jaguarrow">
+                <th scoper="row"> Jaguar </th>
+                <td> 42.999$ </td>
+                <td> 240 HP, 3.0 Liters</td>
+                <td> Blue </td>
+            </tr>
+            <tr id="lexusrow">
+                <th scoper="row"> Lexus</th>
+                <td> 40.999$ </td>
+                <td> 280 HP, 2.5 Liters</td>
+                <td> Red </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="buttons">
+        <button type="button" class="sort-pret"> Sort by price</button>
+        <button type="button" class="sort-brand"> Sort by brand</button>
+    </div>
+
+
+    <div class="select">
+        <label for="car-select" id="carselect">Choose a car:</label>
+
+        <select name="cars" class="cars-select">
+    
+       
+        </select>
+
+    </div>
+
+
+
+
+    <script src="data.js"></script>
+    <script src="utility.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

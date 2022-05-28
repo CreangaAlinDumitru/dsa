@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+caption {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+thead {
+    text-indent: 140px;
+}
+
+th {
+    position: relative;
+    color: white;
+    background-color: black;
+}
+
+th:hover {
+    color: red;
+}
+
+td {
+    color: white;
+    background-color: grey;
+    opacity: 0.9
+}
+
+td:hover {
+    color: black;
+}
+
+tfoot {
+    font-size: 15px;
+    color: rgb(179, 178, 178);
+    position: relative;
+    text-align: left;
+}
+
+#bmwrow {
+    background-color: hsl(0, 0%, 90%);
+}
+
+#audirow {
+    background-color: rgb(148, 148, 148);
+}
+
+#mercedesrow {
+    background-color: rgb(199, 198, 198);
+}
+
+#jaguarrow {
+    background-color: rgb(148, 148, 148);
+}
+
+#lexusrow {
+    background-color: rgb(199, 198, 198);
+}
+
+.sort-pret {
+    font-size: 24px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.sort-brand {
+    font-size: 24px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.sort-pret:hover {
+    opacity: 1;
+}
+
+.sort-brand:hover {
+    opacity: 1;
+}
+
+#carselect {
+    font-size: 24px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.cars-select {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+#cars-select:hover {
+    opacity: 1;
+}
+
+.select {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 12rem;
+}
+
+.buttons {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 15rem;
+}
+
+#m {
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+#data {
+    background-color: white;
+    color: black;
+}
